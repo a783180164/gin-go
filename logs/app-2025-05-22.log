@@ -1,0 +1,33 @@
+time="2025-05-22T09:00:21+08:00" level=info msg=request ip="::1" latency="560.9µs" method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-22T09:15:21+08:00" level=info msg=request ip="::1" latency=0s method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-22T09:30:21+08:00" level=info msg=request ip="::1" latency=0s method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-22T09:48:11+08:00" level=info msg=request ip="::1" latency=0s method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-22T09:56:52+08:00" level=info msg=request ip=127.0.0.1 latency=162.6539ms method=PUT path="/user?user=jzp&password=jzp123" status=500 userAgent=PostmanRuntime/7.43.4
+time="2025-05-22T09:57:40+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-22T09:57:40+08:00" level=info msg="Server exiting"
+time="2025-05-22T09:57:53+08:00" level=info msg=request ip=127.0.0.1 latency=44.9963ms method=PUT path="/user?user=jzp&password=jzp123" status=500 userAgent=PostmanRuntime/7.43.4
+time="2025-05-22T09:57:57+08:00" level=info msg=request ip=127.0.0.1 latency=1.354ms method=PUT path="/user?user=jzp&password=jzp123" status=500 userAgent=PostmanRuntime/7.43.4
+time="2025-05-22T09:58:38+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-22T09:58:38+08:00" level=info msg="Server exiting"
+time="2025-05-22T09:58:54+08:00" level=info msg=request ip=127.0.0.1 latency=21.9613ms method=PUT path="/user?user=jzp&password=jzp123" status=500 userAgent=PostmanRuntime/7.43.4
+time="2025-05-22T10:00:54+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-22T10:00:54+08:00" level=info msg="Server exiting"
+time="2025-05-22T10:04:38+08:00" level=info msg=request ip=127.0.0.1 latency=55.2473ms method=PUT path="/user?user=jzp&password=jzp123" status=200 userAgent=PostmanRuntime/7.43.4
+time="2025-05-22T10:05:33+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-22T10:05:33+08:00" level=info msg="Server exiting"
+time="2025-05-22T10:05:44+08:00" level=info msg=request ip=127.0.0.1 latency=34.5285ms method=PUT path="/user?user=jzp&password=jzp123" status=200 userAgent=PostmanRuntime/7.43.4
+time="2025-05-22T10:14:35+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-22T10:14:35+08:00" level=info msg="Server exiting"
+time="2025-05-22T10:15:19+08:00" level=info msg=request ip=127.0.0.1 latency=67.8005ms method=PUT path="/user?user=jzp&password=jzp123" status=500 userAgent=PostmanRuntime/7.43.4
+time="2025-05-22T10:17:03+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-22T10:17:03+08:00" level=info msg="Server exiting"
+time="2025-05-22T10:17:12+08:00" level=info msg=request ip=127.0.0.1 latency=27.7338ms method=PUT path="/user?user=jzp&password=jzp123" status=200 userAgent=PostmanRuntime/7.43.4
+time="2025-05-22T10:18:15+08:00" level=info msg=request ip="::1" latency=0s method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-22T10:25:09+08:00" level=info msg=request ip=127.0.0.1 latency=28.1561ms method=PUT path="/user?user=jzp&password=jzp123" status=500 userAgent=PostmanRuntime/7.43.4
+time="2025-05-22T10:25:14+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-22T10:25:14+08:00" level=info msg="Server exiting"
+time="2025-05-22T14:33:05+08:00" level=info msg=request ip="::1" latency=0s method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-22T14:38:12+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-22T14:38:12+08:00" level=info msg="Server exiting"
+time="2025-05-22T14:47:59+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-22T14:47:59+08:00" level=info msg="Server exiting"

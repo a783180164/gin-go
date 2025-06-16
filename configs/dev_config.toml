@@ -1,0 +1,38 @@
+[baseconfig]
+  port = 8080
+
+[jwt]
+  name = 'gin-go'
+  secret = '1231332313231321313123213132313132'
+  hour = 13
+
+[logger]
+  filepath = './log'
+  enableResponseLog = true
+  enableRequestLog = true
+
+[mysql]
+  [mysql.base]
+  connmaxlifetime = 60
+  maxidleconn = 60
+  maxopenconn = 10
+
+  [mysql.read]
+  addr = '127.0.0.1:3306'
+  name = 'gin-go'
+  pass = 'root123'
+  user = 'root'
+
+  [mysql.write]
+  addr = '127.0.0.1:3306'
+  name = 'gin-go'
+  pass = 'gin-go123'
+  user = 'gin-go-write'
+[ollama]
+  host = "http://172.25.201.65"
+  port = 11434
+  model = "qwen:1.8b"
+[qdrant]
+  host = "http://172.25.201.65"
+  port = 6333
+  apikey = "530430fac2a3ca872504f276d2c91a5c91f43fa0"

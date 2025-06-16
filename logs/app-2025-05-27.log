@@ -1,0 +1,32 @@
+time="2025-05-27T13:34:55+08:00" level=info msg=request ip=127.0.0.1 latency=2.4479ms method=PUT path=/api/user status=500 userAgent=PostmanRuntime/7.44.0
+time="2025-05-27T13:44:13+08:00" level=info msg=request ip="::1" latency=0s method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-27T13:45:10+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-27T13:45:10+08:00" level=info msg="Server exiting"
+time="2025-05-27T14:05:31+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-27T14:05:31+08:00" level=info msg="Server exiting"
+time="2025-05-27T14:05:39+08:00" level=info msg=request ip=127.0.0.1 latency=49.206ms method=PUT path=/api/user status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-27T14:05:49+08:00" level=info msg=request ip=127.0.0.1 latency=1.592ms method=PUT path=/api/user status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-27T14:05:53+08:00" level=info msg=request ip=127.0.0.1 latency=1.755ms method=PUT path=/api/user status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-27T14:05:56+08:00" level=info msg=request ip=127.0.0.1 latency=1.608ms method=PUT path=/api/user status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-27T14:05:59+08:00" level=info msg=request ip=127.0.0.1 latency=1.6449ms method=PUT path=/api/user status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-27T14:06:04+08:00" level=info msg=request ip=127.0.0.1 latency=18.5927ms method=PUT path=/api/user status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-27T14:14:17+08:00" level=info msg=request ip="::1" latency=0s method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-27T14:29:17+08:00" level=info msg=request ip="::1" latency="529µs" method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-27T14:44:17+08:00" level=info msg=request ip="::1" latency="580.3µs" method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-27T15:30:20+08:00" level=info msg=request ip="::1" latency="574.9µs" method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-27T15:45:20+08:00" level=info msg=request ip="::1" latency=0s method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-27T16:00:21+08:00" level=info msg=request ip="::1" latency=1.8415ms method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-27T16:15:21+08:00" level=info msg=request ip="::1" latency=2.1379ms method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-27T16:30:21+08:00" level=info msg=request ip="::1" latency=1.5728ms method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-27T16:45:21+08:00" level=info msg=request ip="::1" latency=0s method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-27T17:00:21+08:00" level=info msg=request ip="::1" latency=0s method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-27T18:07:48+08:00" level=info msg=request ip=127.0.0.1 latency=94.9713ms method=PUT path=/api/user status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-27T18:07:53+08:00" level=info msg=request ip=127.0.0.1 latency=3.0234ms method=PUT path=/api/user status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-27T18:07:58+08:00" level=info msg=request ip=127.0.0.1 latency=1.4369ms method=PUT path=/api/user status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-27T18:08:05+08:00" level=info msg=request ip=127.0.0.1 latency=2.1592ms method=PUT path=/api/user status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-27T18:14:50+08:00" level=info msg=request ip="::1" latency=0s method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-27T18:29:50+08:00" level=info msg=request ip="::1" latency=0s method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-27T18:32:22+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-27T18:32:22+08:00" level=info msg="Server exiting"
+time="2025-05-27T18:44:16+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-27T18:44:16+08:00" level=info msg="Server exiting"

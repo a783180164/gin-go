@@ -1,0 +1,22 @@
+time="2025-05-21T15:50:32+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-21T15:50:33+08:00" level=info msg="Server exiting"
+time="2025-05-21T15:50:54+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-21T15:50:54+08:00" level=info msg="Server exiting"
+time="2025-05-21T16:04:45+08:00" level=info msg=request ip="::1" latency=0s method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-21T16:06:05+08:00" level=info msg=request ip=127.0.0.1 latency=4.9924ms method=PUT path=/user status=400 userAgent=PostmanRuntime/7.43.4
+time="2025-05-21T16:14:59+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-21T16:14:59+08:00" level=info msg="Server exiting"
+time="2025-05-21T16:15:10+08:00" level=info msg="Attempting to register user" err=EOF ip=127.0.0.1 user=
+time="2025-05-21T16:15:10+08:00" level=info msg=request ip=127.0.0.1 latency=72.9379ms method=PUT path=/user status=400 userAgent=PostmanRuntime/7.43.4
+time="2025-05-21T16:16:54+08:00" level=info msg="Attempting to register user" err=EOF ip=127.0.0.1 user=
+time="2025-05-21T16:16:54+08:00" level=info msg=request ip=127.0.0.1 latency=1.7004ms method=PUT path="/user?user=jzp&password=jzp123" status=400 userAgent=PostmanRuntime/7.43.4
+time="2025-05-21T16:17:43+08:00" level=info msg=request ip=127.0.0.1 latency=33.6902ms method=PUT path="/user?user=jzp&password=jzp123" status=500 userAgent=PostmanRuntime/7.43.4
+time="2025-05-21T16:17:53+08:00" level=info msg=request ip=127.0.0.1 latency=9.1381ms method=PUT path="/user?user=jzp&password=jzp123" status=500 userAgent=PostmanRuntime/7.43.4
+time="2025-05-21T16:19:46+08:00" level=info msg=request ip="::1" latency=0s method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"
+time="2025-05-21T16:33:00+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-21T16:33:00+08:00" level=info msg="Server exiting"
+time="2025-05-21T16:35:07+08:00" level=error msg="failed to init db: Error 1045 (28000): Access denied for user 'gin-go-read'@'localhost' (using password: YES)"
+time="2025-05-21T16:36:09+08:00" level=error msg="failed to init db: Error 1045 (28000): Access denied for user 'gin-go-read'@'localhost' (using password: YES)"
+time="2025-05-21T16:36:21+08:00" level=error msg="failed to init db: Error 1045 (28000): Access denied for user 'gin-go-read'@'localhost' (using password: YES)"
+time="2025-05-21T16:38:21+08:00" level=error msg="failed to init db: Error 1045 (28000): Access denied for user 'root123'@'localhost' (using password: YES)"
+time="2025-05-21T16:49:50+08:00" level=info msg=request ip="::1" latency=0s method=POST path="/?guid=a9410af4-3c6f-4a5a-8574-f5e2e21387d1" status=404 userAgent="Crashpad/0.8.0 WinHTTP/10.0.26100.3624 Windows_NT/10.0.26100.3775 (x64)"

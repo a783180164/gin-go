@@ -1,0 +1,45 @@
+time="2025-05-29T08:34:12+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-29T08:34:12+08:00" level=info msg="Server exiting"
+time="2025-05-29T08:34:30+08:00" level=info msg=request ip=127.0.0.1 latency=434.5014ms method=GET path=/weather/now status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T08:42:18+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-29T08:42:18+08:00" level=info msg="Server exiting"
+time="2025-05-29T10:15:29+08:00" level=info msg=request ip=127.0.0.1 latency=8.7973ms method=GET path=/weather/now status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T10:16:26+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-29T10:16:26+08:00" level=info msg="Server exiting"
+time="2025-05-29T10:16:38+08:00" level=info msg=request ip=127.0.0.1 latency="753.6µs" method=GET path=/weather/now status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T10:22:46+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-29T10:22:46+08:00" level=info msg="Server exiting"
+time="2025-05-29T10:24:04+08:00" level=info msg=request ip=127.0.0.1 latency="589.3µs" method=GET path=/weather/now status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T10:25:38+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-29T10:25:38+08:00" level=info msg="Server exiting"
+time="2025-05-29T10:25:57+08:00" level=info msg=request ip=127.0.0.1 latency=1.8844ms method=GET path="/weather/now?location" status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T10:26:20+08:00" level=info msg=request ip=127.0.0.1 latency="792.5µs" method=GET path="/weather/now?location" status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T10:26:36+08:00" level=info msg=request ip=127.0.0.1 latency=301.6956ms method=GET path="/weather/now?location=hangzhou" status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T10:57:34+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-29T10:57:35+08:00" level=info msg="Server exiting"
+time="2025-05-29T10:57:48+08:00" level=info msg=request ip=127.0.0.1 latency=233.5862ms method=GET path="/weather/now?location=hangzhou" status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T10:58:19+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-29T10:58:19+08:00" level=info msg="Server exiting"
+time="2025-05-29T10:58:49+08:00" level=info msg=request ip=127.0.0.1 latency=540.257ms method=GET path="/weather/now?location=hangzhou" status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T10:59:26+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-29T10:59:26+08:00" level=info msg="Server exiting"
+time="2025-05-29T10:59:44+08:00" level=info msg=request ip=127.0.0.1 latency=303.4438ms method=GET path="/weather/now?location=hangzhou" status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T10:59:51+08:00" level=info msg=request ip=127.0.0.1 latency=18.6113ms method=GET path="/weather/now?location=hangzhou" status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T11:00:09+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-29T11:00:09+08:00" level=info msg="Server exiting"
+time="2025-05-29T11:00:25+08:00" level=info msg=request ip=127.0.0.1 latency=277.4614ms method=GET path="/weather/now?location=hangzhou" status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T11:01:08+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-29T11:01:08+08:00" level=info msg="Server exiting"
+time="2025-05-29T11:01:37+08:00" level=info msg=request ip=127.0.0.1 latency=357.3967ms method=GET path="/weather/now?location=hangzhou" status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T11:01:48+08:00" level=info msg=request ip=127.0.0.1 latency=20.6378ms method=GET path="/weather/now?location=beijing" status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T11:02:05+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-29T11:02:05+08:00" level=info msg="Server exiting"
+time="2025-05-29T11:02:34+08:00" level=info msg=request ip=127.0.0.1 latency=350.1971ms method=GET path="/weather/now?location=beijing" status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T11:03:04+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-29T11:03:04+08:00" level=info msg="Server exiting"
+time="2025-05-29T11:03:13+08:00" level=info msg=request ip=127.0.0.1 latency=232.6843ms method=GET path="/weather/now?location=beijing" status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T11:03:21+08:00" level=info msg=request ip=127.0.0.1 latency=29.5053ms method=GET path="/weather/now?location=hangzhou" status=200 userAgent=PostmanRuntime/7.44.0
+time="2025-05-29T13:39:33+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-29T13:39:33+08:00" level=info msg="Server exiting"
+time="2025-05-29T13:40:20+08:00" level=info msg="Shutdown Server ..."
+time="2025-05-29T13:40:20+08:00" level=info msg="Server exiting"
