@@ -26,3 +26,8 @@ time="2025-06-16T15:28:51+08:00" level=info msg="request started" ip=127.0.0.1 m
 time="2025-06-16T15:29:20+08:00" level=info msg="request completed" latency=29.1169184s response_body="{\"code\":50000,\"data\":\"\",\"message\":\"写入 Qdrant 失败(uuid:\\\"178f1b0f-100b-5ed6-8098-350884d86372\\\"): 向 Qdrant 写入数据失败：Upsert() failed: weather_collection: rpc error: code = NotFound desc = Not found: Collection `weather_collection` doesn't exist!\"}" response_sz=266 status=200
 time="2025-06-16T15:36:35+08:00" level=info msg="Shutdown Server ..."
 time="2025-06-16T15:36:35+08:00" level=info msg="Server exiting"
+time="2025-06-16T15:41:09+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/ollamatest/upload query= request_size=372 user_agent=PostmanRuntime/7.44.0
+time="2025-06-16T15:42:24+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/ollamatest/upload query= request_size=372 user_agent=PostmanRuntime/7.44.0
+time="2025-06-16T15:42:26+08:00" level=info msg="request completed" latency=2.4846795s response_body="{\"code\":50000,\"data\":\"\",\"message\":\"写入 Qdrant 失败(uuid:\\\"19f2626d-d2ad-5f4e-bd9f-ec221aaced17\\\"): 向 Qdrant 写入数据失败：Upsert() failed: weather_collection: rpc error: code = InvalidArgument desc = Wrong input: Vector dimension error: expected dim: 300, got 2048\"}" response_sz=280 status=200
+time="2025-06-16T15:43:44+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/ollamatest/upload query= request_size=372 user_agent=PostmanRuntime/7.44.0
+time="2025-06-16T15:43:47+08:00" level=info msg="request completed" latency=2.3337469s response_body="{\"code\":0,\"data\":0,\"message\":\"成功\"}" response_sz=38 status=200

@@ -9,7 +9,7 @@ import (
 type Service interface {
 	i()
 	Upload(model *UploadModel, file []*multipart.FileHeader) (int32, error)
-	Prompt(prompt *Prompt) ([]*qdrant.ScoredPoint, error)
+	Prompt(prompt *Prompt) (string, error)
 }
 
 type service struct {

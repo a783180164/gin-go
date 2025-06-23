@@ -60,7 +60,10 @@ func (r *ollamatestQueryBuilder) QueryDocument(qd *qdrant.Client, ctx context.Co
 	query := &qdrant.QueryPoints{
 		CollectionName: collection,
 		Query:          vector,
-		WithPayload:    qdrant.NewWithPayload(true),
+		// 返回添加 payload
+		WithPayload: qdrant.NewWithPayload(true),
+		// 返回添加 vectors
+		WithVectors: qdrant.NewWithVectors(true),
 	}
 	fmt.Println("query", query)
 	// 执行写入操作
