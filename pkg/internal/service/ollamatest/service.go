@@ -10,6 +10,7 @@ type Service interface {
 	i()
 	Upload(model *UploadModel, file []*multipart.FileHeader) (int32, error)
 	Prompt(prompt *Prompt) (string, error)
+	Create(model *CreateCollection) error
 }
 
 type service struct {

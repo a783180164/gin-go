@@ -1,6 +1,7 @@
 package router
 
 import (
+	"gin-go/pkg/internal/api/collection"
 	"gin-go/pkg/internal/api/ollamatest"
 	user "gin-go/pkg/internal/api/user"
 	"gin-go/pkg/internal/api/weather"
@@ -46,6 +47,16 @@ func SetApiRouter(r *gin.Engine) {
 		o.POST("upload", ollama.Upload)
 		o.POST("embed", ollama.EmbedWithOllama)
 		o.POST("prompt", ollama.Prompt)
+	}
+
+	collect := collection.New(logger.Log, mysql.Instance(), qdrant.Instance())
+
+	c := r.Group("collection")
+	{
+		c.POST("create", collect.Create)
+		c.POST("delete", collect.Delete)
+		c.POST("info", collect.Update)
+		c.GET("list", collect.List)
 	}
 }
 

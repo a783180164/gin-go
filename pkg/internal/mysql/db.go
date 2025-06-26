@@ -28,6 +28,7 @@ var (
 	SmallerThanPredicate        = Predicate("<")
 	SmallerThanOrEqualPredicate = Predicate("<=")
 	LikePredicate               = Predicate("LIKE")
+	InPredicate                 = Predicate("IN")
 )
 
 var config = configs.Get()

@@ -1,0 +1,70 @@
+time="2025-06-26T09:46:58+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-26T09:46:58+08:00" level=info msg="Server exiting"
+time="2025-06-26T09:52:34+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/ollamatest/delete query= request_size=0 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T09:52:34+08:00" level=info msg="request completed" latency=5.5936ms response_body= response_sz=0 status=404
+time="2025-06-26T09:52:48+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/delete query= request_size=0 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T09:52:48+08:00" level=info msg="request completed" latency="558.4µs" response_body="{\"code\":90400,\"data\":null,\"message\":\"EOF\"}" response_sz=42 status=200
+time="2025-06-26T09:54:32+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/delete query= request_size=24 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T09:54:32+08:00" level=info msg="request completed" latency=64.9987ms response_body="{\"code\":20100,\"data\":null,\"message\":\"updates err; Error 1143 (42000): SELECT command denied to user 'gin-go-write'@'localhost' for column 'uuid' in table 'collections'\"}" response_sz=169 status=200
+time="2025-06-26T09:59:52+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/delete query= request_size=57 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T09:59:52+08:00" level=info msg="request completed" latency=4.9424ms response_body="{\"code\":20100,\"data\":null,\"message\":\"updates err; Error 1143 (42000): SELECT command denied to user 'gin-go-write'@'localhost' for column 'uuid' in table 'collections'\"}" response_sz=169 status=200
+time="2025-06-26T09:59:54+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/delete query= request_size=57 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T09:59:54+08:00" level=info msg="request completed" latency=2.4795ms response_body="{\"code\":20100,\"data\":null,\"message\":\"updates err; Error 1143 (42000): SELECT command denied to user 'gin-go-write'@'localhost' for column 'uuid' in table 'collections'\"}" response_sz=169 status=200
+time="2025-06-26T09:59:56+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/delete query= request_size=57 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T09:59:56+08:00" level=info msg="request completed" latency=4.7018ms response_body="{\"code\":20100,\"data\":null,\"message\":\"updates err; Error 1143 (42000): SELECT command denied to user 'gin-go-write'@'localhost' for column 'uuid' in table 'collections'\"}" response_sz=169 status=200
+time="2025-06-26T10:00:38+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-26T10:00:38+08:00" level=info msg="Server exiting"
+time="2025-06-26T10:02:20+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/delete query= request_size=57 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T10:02:20+08:00" level=info msg="request completed" latency=19.2397ms response_body="{\"code\":20100,\"data\":null,\"message\":\"updates err; Error 1143 (42000): SELECT command denied to user 'gin-go-write'@'localhost' for column 'uuid' in table 'collections'\"}" response_sz=169 status=200
+time="2025-06-26T10:02:32+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-26T10:02:32+08:00" level=info msg="Server exiting"
+time="2025-06-26T10:02:46+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/delete query= request_size=57 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T10:02:46+08:00" level=info msg="request completed" latency=189.7761ms response_body="{\"code\":0,\"data\":null,\"message\":\"成功\"}" response_sz=41 status=200
+time="2025-06-26T10:03:13+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/delete query= request_size=97 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T10:03:13+08:00" level=info msg="request completed" latency=2.2537ms response_body="{\"code\":0,\"data\":null,\"message\":\"成功\"}" response_sz=41 status=200
+time="2025-06-26T10:03:34+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/delete query= request_size=94 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T10:03:34+08:00" level=info msg="request completed" latency=6.5492ms response_body="{\"code\":0,\"data\":null,\"message\":\"成功\"}" response_sz=41 status=200
+time="2025-06-26T10:03:54+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/delete query= request_size=94 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T10:03:54+08:00" level=info msg="request completed" latency=1.9397ms response_body="{\"code\":0,\"data\":null,\"message\":\"成功\"}" response_sz=41 status=200
+time="2025-06-26T10:25:55+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-26T10:25:55+08:00" level=info msg="Server exiting"
+time="2025-06-26T10:27:38+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/info query= request_size=0 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T10:27:38+08:00" level=info msg="request completed" latency=56.2569ms response_body="{\"code\":90400,\"data\":null,\"message\":\"EOF\"}" response_sz=42 status=200
+time="2025-06-26T10:28:18+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/info query= request_size=56 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T10:28:18+08:00" level=info msg="request completed" latency="629.2µs" response_body="{\"code\":90400,\"data\":null,\"message\":\"Key: 'UpdateRequest.UUID' Error:Field validation for 'UUID' failed on the 'required' tag\"}" response_sz=127 status=200
+time="2025-06-26T10:28:28+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/info query= request_size=59 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T10:28:28+08:00" level=info msg="request completed" latency=5.4486ms response_body="{\"code\":0,\"data\":null,\"message\":\"成功\"}" response_sz=41 status=200
+time="2025-06-26T10:28:34+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/info query= request_size=56 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T10:28:34+08:00" level=info msg="request completed" latency="511µs" response_body="{\"code\":90400,\"data\":null,\"message\":\"Key: 'UpdateRequest.UUID' Error:Field validation for 'UUID' failed on the 'required' tag\"}" response_sz=127 status=200
+time="2025-06-26T10:28:41+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/info query= request_size=6 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T10:28:41+08:00" level=info msg="request completed" latency="673.9µs" response_body="{\"code\":90400,\"data\":null,\"message\":\"Key: 'UpdateRequest.UUID' Error:Field validation for 'UUID' failed on the 'required' tag\"}" response_sz=127 status=200
+time="2025-06-26T10:28:47+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/info query= request_size=0 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T10:28:47+08:00" level=info msg="request completed" latency=0s response_body="{\"code\":90400,\"data\":null,\"message\":\"EOF\"}" response_sz=42 status=200
+time="2025-06-26T10:28:53+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/info query= request_size=56 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T10:28:53+08:00" level=info msg="request completed" latency="876.3µs" response_body="{\"code\":90400,\"data\":null,\"message\":\"Key: 'UpdateRequest.UUID' Error:Field validation for 'UUID' failed on the 'required' tag\"}" response_sz=127 status=200
+time="2025-06-26T10:29:19+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=31 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T10:29:19+08:00" level=info msg="request completed" latency=6.8844ms response_body="{\"code\":20100,\"data\":null,\"message\":\"Error 1054 (42S22): Unknown column 'is_delete' in 'where clause'\"}" response_sz=103 status=200
+time="2025-06-26T10:31:01+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-26T10:31:01+08:00" level=info msg="Server exiting"
+time="2025-06-26T10:31:19+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=31 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T10:31:20+08:00" level=info msg="request completed" latency=1.3080517s response_body="{\"code\":0,\"data\":\"8173fd6c-e5f1-4941-b632-1896448a8544\",\"message\":\"成功\"}" response_sz=75 status=200
+time="2025-06-26T10:33:02+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/info query= request_size=105 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T10:33:02+08:00" level=info msg="request completed" latency=8.7052ms response_body="{\"code\":0,\"data\":null,\"message\":\"成功\"}" response_sz=41 status=200
+time="2025-06-26T13:38:50+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-26T13:38:50+08:00" level=info msg="Server exiting"
+time="2025-06-26T14:33:32+08:00" level=info msg="request started" ip=127.0.0.1 method=GET path=/collection/list query= request_size=0 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T14:33:32+08:00" level=info msg="request completed" latency=36.6961ms response_body="{\"code\":20100,\"data\":null,\"message\":\"Error 1146 (42S02): Table 'gin-go.collection_query_builders' doesn't exist\"}" response_sz=113 status=200
+time="2025-06-26T14:35:04+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-26T14:35:04+08:00" level=info msg="Server exiting"
+time="2025-06-26T14:36:54+08:00" level=info msg="request started" ip=127.0.0.1 method=GET path=/collection/list query= request_size=0 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T14:36:54+08:00" level=info msg="request completed" latency=11.8451ms response_body="{\"code\":0,\"data\":null,\"message\":\"成功\"}" response_sz=41 status=200
+time="2025-06-26T14:37:10+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-26T14:37:10+08:00" level=info msg="Server exiting"
+time="2025-06-26T14:37:22+08:00" level=info msg="request started" ip=127.0.0.1 method=GET path=/collection/list query= request_size=0 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T14:37:22+08:00" level=info msg="request completed" latency=8.7585ms response_body="{\"code\":0,\"data\":{\"list\":[{\"id\":9,\"uuid\":\"8173fd6c-e5f1-4941-b632-1896448a8544\",\"Desc\":\"3231\",\"prompt\":\"123312313\",\"created_at\":\"2025-06-26 10:31:19\",\"updated_at\":\"2025-06-26 10:33:02\"}],\"pagination\":{\"total\":0,\"current_page\":0,\"per_page_count\":0}},\"message\":\"成功\"}" response_sz=268 status=200
+time="2025-06-26T14:37:33+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-26T14:37:33+08:00" level=info msg="Server exiting"
+time="2025-06-26T15:46:53+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-26T15:46:53+08:00" level=info msg="Server exiting"
+time="2025-06-26T15:47:26+08:00" level=info msg="request started" ip=127.0.0.1 method=GET path=/collection/list query= request_size=0 user_agent=PostmanRuntime/7.44.1
+time="2025-06-26T15:47:26+08:00" level=info msg="request completed" latency=15.1838ms response_body="{\"code\":0,\"data\":{\"list\":[{\"id\":9,\"uuid\":\"8173fd6c-e5f1-4941-b632-1896448a8544\",\"Desc\":\"3231\",\"prompt\":\"123312313\",\"created_at\":\"2025-06-26 10:31:19\",\"updated_at\":\"2025-06-26 10:33:02\"}],\"pagination\":{\"total\":1,\"current_page\":1,\"per_page_count\":10}},\"message\":\"成功\"}" response_sz=269 status=200

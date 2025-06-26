@@ -1,5 +1,5 @@
 // pkg/internal/qtstant/repository.go
-package qtstant
+package ollamatest
 
 import (
 	"context"
@@ -73,4 +73,19 @@ func (r *ollamatestQueryBuilder) QueryDocument(qd *qdrant.Client, ctx context.Co
 		return nil, fmt.Errorf("向 Qdrant 读取失败%w", err)
 	}
 	return info, nil
+}
+
+func (r *ollamatestQueryBuilder) CreateCollection(qd *qdrant.Client, ctx context.Context, name string, uuid string, size uint64) error {
+	err := qd.CreateCollection(context.Background(), &qdrant.CreateCollection{
+		CollectionName: fmt.Sprintf("%v_%v", name, uuid),
+		VectorsConfig: qdrant.NewVectorsConfig(&qdrant.VectorParams{
+			Size:     size,
+			Distance: qdrant.Distance_Cosine,
+		}),
+	})
+	fmt.Println(fmt.Sprintf("%v_%v", name, uuid))
+	if err != nil {
+		return err
+	}
+	return nil
 }

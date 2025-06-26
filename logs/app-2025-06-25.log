@@ -1,0 +1,8 @@
+time="2025-06-25T09:55:45+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=25 user_agent=PostmanRuntime/7.44.1
+time="2025-06-25T09:55:46+08:00" level=info msg="request completed" latency=204.3033ms response_body="{\"code\":20100,\"data\":null,\"message\":\"知识库已经存在\"}" response_sz=60 status=200
+time="2025-06-25T09:56:24+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=25 user_agent=PostmanRuntime/7.44.1
+time="2025-06-25T09:56:33+08:00" level=info msg="request completed" latency=8.3565222s response_body="{\"code\":0,\"data\":\"2307953c-6b8c-418d-b0c8-1729866f374f\",\"message\":\"成功\"}" response_sz=75 status=200
+time="2025-06-25T09:58:53+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=25 user_agent=PostmanRuntime/7.44.1
+time="2025-06-25T09:58:54+08:00" level=info msg="request completed" latency=562.1992ms response_body="{\"code\":0,\"data\":\"13ad82d6-16d5-4324-b850-6b53e05768b5\",\"message\":\"成功\"}" response_sz=75 status=200
+time="2025-06-25T10:20:37+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-25T10:20:37+08:00" level=info msg="Server exiting"

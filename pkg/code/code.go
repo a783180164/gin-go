@@ -28,6 +28,11 @@ const (
 	CreatHasUserError = 10100
 	CreatUserNoError  = 10200
 	CreateUserParam   = 10300
+
+	CreateCollectionError     = 20100
+	CreateHaveCollection      = 20200
+	QueryCollectionsError     = 20300
+	QueryCollectionCountError = 20400
 )
 
 func Text(code int) string {

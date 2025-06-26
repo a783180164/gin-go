@@ -1,0 +1,66 @@
+time="2025-06-24T10:41:52+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T10:41:52+08:00" level=info msg="Server exiting"
+time="2025-06-24T10:43:10+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T10:43:10+08:00" level=info msg="Server exiting"
+time="2025-06-24T10:47:39+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T10:47:39+08:00" level=info msg="Server exiting"
+time="2025-06-24T13:53:13+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T13:53:13+08:00" level=info msg="Server exiting"
+time="2025-06-24T14:02:00+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path="/collection/create " query= request_size=10 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T14:02:00+08:00" level=info msg="request completed" latency=12.9983ms response_body= response_sz=0 status=404
+time="2025-06-24T14:02:10+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=10 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T14:02:10+08:00" level=info msg="request completed" latency=94.6283ms response_body="{\"code\":0,\"data\":1,\"message\":\"成功\"}" response_sz=38 status=200
+time="2025-06-24T14:02:30+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=10 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T14:02:30+08:00" level=info msg="request completed" latency=10.0694ms response_body="{\"code\":60000,\"data\":null,\"message\":\"知识库已经存在\"}" response_sz=60 status=200
+time="2025-06-24T14:03:35+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T14:03:35+08:00" level=info msg="Server exiting"
+time="2025-06-24T14:04:09+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=10 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T14:04:09+08:00" level=info msg="request completed" latency=11.6866ms response_body="{\"code\":60000,\"data\":null,\"message\":\"知识库已经存在\"}" response_sz=60 status=200
+time="2025-06-24T14:04:53+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T14:04:53+08:00" level=info msg="Server exiting"
+time="2025-06-24T14:05:19+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=10 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T14:05:19+08:00" level=info msg="request completed" latency=12.3448ms response_body="{\"code\":60000,\"data\":null,\"message\":\"知识库已经存在\"}" response_sz=60 status=200
+time="2025-06-24T14:06:13+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T14:06:13+08:00" level=info msg="Server exiting"
+time="2025-06-24T14:06:26+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=10 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T14:06:26+08:00" level=info msg="request completed" latency=4.2034ms response_body="{\"code\":90400,\"data\":null,\"message\":\"Key: 'CollectionRequest.Name' Error:Field validation for 'Name' failed on the 'required' tag\"}" response_sz=131 status=200
+time="2025-06-24T14:16:57+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T14:16:57+08:00" level=info msg="Server exiting"
+time="2025-06-24T14:17:11+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=10 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T14:17:11+08:00" level=info msg="request completed" latency=17.1145ms response_body="{\"code\":90400,\"data\":null,\"message\":\"Key: 'CollectionRequest.Name' Error:Field validation for 'Name' failed on the 'required' tag\"}" response_sz=131 status=200
+time="2025-06-24T14:17:19+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=10 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T14:17:19+08:00" level=info msg="request completed" latency="515.1µs" response_body="{\"code\":90400,\"data\":null,\"message\":\"Key: 'CollectionRequest.Name' Error:Field validation for 'Name' failed on the 'required' tag\"}" response_sz=131 status=200
+time="2025-06-24T14:18:23+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=22 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T14:18:23+08:00" level=info msg="request completed" latency=1.6648ms response_body="{\"code\":90400,\"data\":null,\"message\":\"invalid character 'n' looking for beginning of object key string\"}" response_sz=103 status=200
+time="2025-06-24T14:18:57+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=24 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T14:18:57+08:00" level=info msg="request completed" latency=89.1407ms response_body="{\"code\":0,\"data\":2,\"message\":\"成功\"}" response_sz=38 status=200
+time="2025-06-24T14:42:01+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T14:42:01+08:00" level=info msg="Server exiting"
+time="2025-06-24T14:48:09+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T14:48:09+08:00" level=info msg="Server exiting"
+time="2025-06-24T14:48:55+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T14:48:55+08:00" level=info msg="Server exiting"
+time="2025-06-24T16:01:20+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=24 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T16:01:20+08:00" level=info msg="request completed" latency=68.4633ms response_body="{\"code\":20100,\"data\":null,\"message\":\"知识库已经存在\"}" response_sz=60 status=200
+time="2025-06-24T16:01:29+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=25 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T16:01:29+08:00" level=info msg="request completed" latency=43.6146ms response_body="{\"code\":0,\"data\":\"c1a0fbb0-cf96-468a-aa22-5d12f72e14f1\",\"message\":\"成功\"}" response_sz=75 status=200
+time="2025-06-24T16:02:45+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T16:02:45+08:00" level=info msg="Server exiting"
+time="2025-06-24T16:03:04+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=25 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T16:03:04+08:00" level=info msg="request completed" latency=15.5881ms response_body="{\"code\":0,\"data\":\"4f39ea79-2466-431e-a059-5044e475e921\",\"message\":\"成功\"}" response_sz=75 status=200
+time="2025-06-24T16:03:28+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T16:03:28+08:00" level=info msg="Server exiting"
+time="2025-06-24T16:03:41+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=25 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T16:03:41+08:00" level=info msg="request completed" latency=24.6845ms response_body="{\"code\":20100,\"data\":null,\"message\":\"CreateCollection() failed: txt_3_c8b8fecf-a113-41fa-b751-9070e4865458: rpc error: code = Unavailable desc = connection error: desc = \\\"transport: Error while dialing: dial tcp [::1]:6334: connectex: No connection could be made because the target machine actively refused it.\\\"\"}" response_sz=315 status=200
+time="2025-06-24T16:05:07+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/ollamatest/prompt query= request_size=48 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T16:05:37+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/ollamatest/upload query= request_size=372 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T16:05:38+08:00" level=info msg="request completed" latency=30.3281963s response_body="{\"code\":90400,\"data\":null,\"message\":\"向 Qdrant 读取失败Query() failed: txt_collection: rpc error: code = Unavailable desc = connection error: desc = \\\"transport: Error while dialing: dial tcp [::1]:6334: connectex: No connection could be made because the target machine actively refused it.\\\"\"}" response_sz=299 status=200
+time="2025-06-24T16:05:41+08:00" level=info msg="request completed" latency=3.9113387s response_body="{\"code\":50000,\"data\":\"\",\"message\":\"写入 Qdrant 失败(uuid:\\\"19f2626d-d2ad-5f4e-bd9f-ec221aaced17\\\"): 向 Qdrant 写入数据失败：Upsert() failed: weather_collection: rpc error: code = Unavailable desc = connection error: desc = \\\"transport: Error while dialing: dial tcp [::1]:6334: connectex: No connection could be made because the target machine actively refused it.\\\"\"}" response_sz=380 status=200
+time="2025-06-24T16:08:57+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T16:08:57+08:00" level=info msg="Server exiting"
+time="2025-06-24T16:18:27+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T16:18:27+08:00" level=info msg="Server exiting"
+time="2025-06-24T16:18:56+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=25 user_agent=PostmanRuntime/7.44.0
+time="2025-06-24T16:18:57+08:00" level=info msg="request completed" latency=1.1635208s response_body="{\"code\":0,\"data\":\"10126938-83b9-4db0-a79f-5e30a8cffa97\",\"message\":\"成功\"}" response_sz=75 status=200
+time="2025-06-24T16:34:02+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-24T16:34:02+08:00" level=info msg="Server exiting"

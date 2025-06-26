@@ -4,7 +4,6 @@ package user
 import (
 	"errors"
 	"fmt"
-	"gin-go/pkg/internal/model"
 	"gin-go/pkg/internal/mysql"
 	"gorm.io/gorm"
 )
@@ -37,8 +36,8 @@ func NewQueryBuilder() *userQueryBuilder {
 }
 
 // FindByUsername 根据用户名查用户
-func (r *userQueryBuilder) FindByUsername(db *gorm.DB, user string) (*model.User, error) {
-	var u model.User
+func (r *userQueryBuilder) FindByUsername(db *gorm.DB, user string) (*User, error) {
+	var u User
 	if err := db.Where("user = ?", user).First(&u).Error; err != nil {
 		return nil, err
 	}

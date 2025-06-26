@@ -26,8 +26,8 @@ user = 'root'
 [mysql.write]
 addr = '127.0.0.1:3306'
 name = 'gin-go'
-pass = 'gin-go123'
-user = 'gin-go-write'
+pass = 'root123'
+user = 'root'
 
 [ollama]
 host = 'http://172.25.201.65'
@@ -37,4 +37,4 @@ port = 11434
 [qdrant]
 apikey = '530430fac2a3ca872504f276d2c91a5c91f43fa0'
 host = 'http://172.25.201.65'
-port = 6333
+port = 6334
