@@ -37,10 +37,10 @@ func (s *service) List(data *ListCollection) (list []*collection.Collection, err
 	}
 
 	if data.Prompt != "" {
-		qb.WhereDesc(mysql.LikePredicate, data.Prompt)
+		qb.WherePrompt(mysql.LikePredicate, data.Prompt)
 	}
 
-	lists, err := qb.Limit(page).Offset(offset).OrderById(false).QueryAll(s.db)
+	lists, err := qb.Limit(pageSize).Offset(offset).OrderById(false).QueryAll(s.db)
 
 	if err != nil {
 		return nil, err

@@ -9,10 +9,11 @@ import (
 	"gin-go/pkg/code"
 	Core "gin-go/pkg/internal/core"
 	"gin-go/pkg/logger"
-	"github.com/gin-gonic/gin"
-	"github.com/sirupsen/logrus"
 	"io/ioutil"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
+	"github.com/sirupsen/logrus"
 )
 
 type EmbedRequest struct {

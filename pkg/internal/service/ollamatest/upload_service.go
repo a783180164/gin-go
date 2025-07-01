@@ -3,6 +3,7 @@ package ollamatest
 import (
 	"bufio"
 	"context"
+	"encoding/json"
 	"fmt"
 	"io"
 	"mime/multipart"
@@ -13,6 +14,8 @@ import (
 	"github.com/qdrant/go-client/qdrant"
 
 	"gin-go/pkg/internal/embed"
+	"gin-go/pkg/internal/mysql"
+	collectionRepository "gin-go/pkg/internal/repository/collection"
 	repository "gin-go/pkg/internal/repository/ollamatest"
 )
 
@@ -29,11 +32,18 @@ const (
 
 type UploadModel struct {
 	Collection string
+	UUID       string
 	Tags       []string // 可选标签
 }
 
 func (s *service) Upload(model *UploadModel, files []*multipart.FileHeader) (int32, error) {
 	qd := repository.NewQueryBuilder()
+	qb := collectionRepository.NewQueryBuilder()
+	qb.WhereUUid(mysql.EqualPredicate, model.UUID)
+	info, err := qb.QueryOne(s.db)
+	if err != nil {
+		return 0, err
+	}
 	// 并发控制
 	sem := make(chan struct{}, MaxConcurrency)
 	var (
@@ -99,22 +109,34 @@ func (s *service) Upload(model *UploadModel, files []*multipart.FileHeader) (int
 					docID := qdrant.NewID(u.String())
 
 					// 构造 payload
-					payload := map[string]any{
-						"created_at":  time.Now().Format(time.RFC3339),
-						"file_name":   fileHeader.Filename,
-						"chunk_index": chunkIndex,
-						"chunk_size":  n,
-						"content":     textChunk,
+					payloadStruct := &repository.CollectionPoint{
+						CreatedAt:  time.Now().Format(time.RFC3339), // 或者你想要的任何时间格式
+						Filename:   fileHeader.Filename,
+						ChunkIndex: int64(chunkIndex),
+						ChunkSize:  int64(n), // 本次读取的字节数
+						Content:    textChunk,
+					}
+
+					// 1. 序列化 struct
+					bts, err := json.Marshal(payloadStruct)
+					if err != nil {
+						firstErr = fmt.Errorf("marshal payload: %w", err)
+					}
+
+					// 2. 反序列化成 map
+					var payloadMap map[string]any
+					if err := json.Unmarshal(bts, &payloadMap); err != nil {
+						firstErr = fmt.Errorf("unmarshal to map: %w", err)
 					}
 
 					// upsert 到 Qdrant
 					err = qd.AddDocument(
 						s.qd,
 						context.Background(),
-						model.Collection,
+						info.Name+"_"+info.UUID,
 						docID,
 						qdrant.NewVectors(vector...),
-						qdrant.NewValueMap(payload),
+						qdrant.NewValueMap(payloadMap),
 					)
 					if err != nil {
 						mu.Lock()

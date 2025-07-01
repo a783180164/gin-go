@@ -5,13 +5,15 @@ import (
 	Core "gin-go/pkg/internal/core"
 	"gin-go/pkg/internal/service/ollamatest"
 	"gin-go/pkg/logger"
+	"net/http"
+
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
-	"net/http"
 )
 
 type PromptRequest struct {
 	Text string `json:"text" binding:"required"`
+	UUID string `json:"name" binding:"uuid"`
 }
 
 func (h *handler) Prompt(c *gin.Context) {
@@ -29,6 +31,8 @@ func (h *handler) Prompt(c *gin.Context) {
 	}
 	data := new(ollamatest.Prompt)
 	data.Text = req.Text
+
+	data.UUID = req.UUID
 	datas, err := h.ollamatestService.Prompt(data)
 
 	if err != nil {

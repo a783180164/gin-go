@@ -3,22 +3,24 @@ package ollamatest
 import (
 	"fmt"
 	"gin-go/pkg/code"
+
 	// Core "gin-go/pkg/internal/core"
 	"gin-go/pkg/internal/service/ollamatest"
 	"gin-go/pkg/logger"
-	"github.com/gin-gonic/gin"
-	"github.com/sirupsen/logrus"
 	"mime/multipart"
 	"net/http"
 	"path/filepath"
 	"strings"
+
+	"github.com/gin-gonic/gin"
+	"github.com/sirupsen/logrus"
 )
 
 var allowedTypes = map[string][]string{
 	// ".pdf":  {"application/pdf"},
 	// ".doc":  {"application/msword"},
 	// ".docx": {"application/vnd.openxmlformats-officedocument.wordprocessingml.document"},
-	".txt": {"text/plain", "text/plain; charset=utf-8", "application/octet-stream"},
+	".txt": {"text/plain", "text/plain; charset=utf-8", "application/octet-stream", "text/html; charset=utf-8"},
 	// ".png":  {"image/png"},
 	// ".jpg":  {"image/jpeg"},
 	// ".jpeg": {"image/jpeg"},
@@ -32,6 +34,7 @@ func isAllowed(fileHeader *multipart.FileHeader) bool {
 	ext := strings.ToLower(filepath.Ext(fileHeader.Filename))
 
 	allowedMimes, ok := allowedTypes[ext]
+	fmt.Println("ok", ok)
 	if !ok {
 		return false
 	}
@@ -45,6 +48,7 @@ func isAllowed(fileHeader *multipart.FileHeader) bool {
 
 	buf := make([]byte, 512)
 	if _, err := f.Read(buf); err != nil {
+		fmt.Println(err.Error())
 		return false
 	}
 
@@ -65,6 +69,7 @@ const (
 
 type UploadRequest struct {
 	Collection string `form:"collection" binding:"required"`
+	UUID       string `form:"uuid" binding:"required"`
 }
 
 func (h *handler) Upload(c *gin.Context) {
@@ -117,6 +122,7 @@ func (h *handler) Upload(c *gin.Context) {
 
 	model := new(ollamatest.UploadModel)
 	model.Collection = req.Collection
+	model.UUID = req.UUID
 	id, err := h.ollamatestService.Upload(model, files)
 
 	if err != nil {

@@ -1,7 +1,6 @@
 package ollamatest
 
 import (
-	"context"
 	"crypto/md5"
 	"encoding/hex"
 	"fmt"
@@ -10,12 +9,14 @@ import (
 	"strings"
 
 	"gin-go/pkg/internal/embed"
+	"gin-go/pkg/internal/mysql"
+	collectionRepository "gin-go/pkg/internal/repository/collection"
 	repository "gin-go/pkg/internal/repository/ollamatest"
-	"github.com/qdrant/go-client/qdrant"
 )
 
 type Prompt struct {
 	Text string
+	UUID string
 }
 
 // normalize 对字符串去标点、去多余空格、统一小写
@@ -61,17 +62,25 @@ func buildPrompt(texts []string) string {
 }
 
 func (s *service) Prompt(prompt *Prompt) (string, error) {
+
+	qb := collectionRepository.NewQueryBuilder()
+	qb.WhereUUid(mysql.EqualPredicate, prompt.UUID)
+	Info, err := qb.QueryOne(s.db)
+
+	if err != nil {
+		return "", err
+	}
 	// 1. 初次 embed + qdrant 查询
 	embRes, err := embed.CallOllamaEmbed(prompt.Text)
 	if err != nil {
 		return "", err
 	}
 	qd := repository.NewQueryBuilder()
-	raw, err := qd.QueryDocument(
+
+	qd.WhereCollection(Info.Name + "_" + Info.UUID)
+	qd.WhereQuery(embRes.Embeddings[0])
+	raw, err := qd.QueryAll(
 		s.qd,
-		context.Background(),
-		"txt_collection",
-		qdrant.NewQuery(embRes.Embeddings[0]...),
 	)
 	if err != nil {
 		return "", err

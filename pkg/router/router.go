@@ -7,10 +7,11 @@ import (
 	"gin-go/pkg/internal/api/weather"
 	"gin-go/pkg/internal/mysql"
 	"gin-go/pkg/internal/qdrant"
-	"gin-go/pkg/jwt"
+	jwtmidd "gin-go/pkg/jwt"
 	"gin-go/pkg/logger"
-	"github.com/gin-gonic/gin"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
 )
 
 func SetApiRouter(r *gin.Engine) {
@@ -47,6 +48,7 @@ func SetApiRouter(r *gin.Engine) {
 		o.POST("upload", ollama.Upload)
 		o.POST("embed", ollama.EmbedWithOllama)
 		o.POST("prompt", ollama.Prompt)
+		o.GET("list", ollama.List)
 	}
 
 	collect := collection.New(logger.Log, mysql.Instance(), qdrant.Instance())

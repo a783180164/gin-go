@@ -1,0 +1,30 @@
+time="2025-06-30T15:39:58+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/ollamatest/upload query= request_size=511 user_agent=PostmanRuntime/7.44.1
+time="2025-06-30T15:40:36+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/collection/create query= request_size=33 user_agent=PostmanRuntime/7.44.1
+time="2025-06-30T15:40:41+08:00" level=info msg="request completed" latency=5.3203984s response_body="{\"code\":0,\"data\":\"ebda5dc2-160a-4c7b-b681-d52a668598e3\",\"message\":\"成功\"}" response_sz=75 status=200
+time="2025-06-30T15:40:56+08:00" level=info msg="request completed" latency=58.163687s response_body="{\"code\":50000,\"data\":\"\",\"message\":\"写入 Qdrant 失败(uuid:\\\"19f2626d-d2ad-5f4e-bd9f-ec221aaced17\\\"): 向 Qdrant 写入数据失败：Upsert() failed: weather_collection: rpc error: code = NotFound desc = Not found: Collection `weather_collection` doesn't exist!\"}" response_sz=266 status=200
+time="2025-06-30T15:42:36+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-30T15:42:37+08:00" level=info msg="Server exiting"
+time="2025-06-30T15:44:11+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/ollamatest/upload query= request_size=511 user_agent=PostmanRuntime/7.44.1
+time="2025-06-30T15:44:17+08:00" level=info msg="request completed" latency=6.6394033s response_body="{\"code\":0,\"data\":0,\"message\":\"成功\"}" response_sz=38 status=200
+time="2025-06-30T15:55:28+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-30T15:55:28+08:00" level=info msg="Server exiting"
+time="2025-06-30T15:56:17+08:00" level=info msg="request started" ip=127.0.0.1 method=GET path=/ollamatest/list query="uuid=8173fd6c-e5f1-4941-b632-1896448a8544" request_size=14 user_agent=PostmanRuntime/7.44.1
+time="2025-06-30T15:56:17+08:00" level=info msg="request completed" latency=72.4797ms response_body="{\"code\":0,\"data\":null,\"message\":\"查询 Qdrant 失败：Query() failed: rpc error: code = InvalidArgument desc = Validation error in body: [collection_name: value \\\"\\\" invalid, must be from 1 to 255 characters]\"}" response_sz=212 status=200
+time="2025-06-30T15:59:34+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-30T15:59:34+08:00" level=info msg="Server exiting"
+time="2025-06-30T16:01:51+08:00" level=info msg="request started" ip=127.0.0.1 method=GET path=/ollamatest/list query="uuid=8173fd6c-e5f1-4941-b632-1896448a8544" request_size=14 user_agent=PostmanRuntime/7.44.1
+time="2025-06-30T16:01:51+08:00" level=info msg="request completed" latency=173.7482ms response_body="{\"code\":0,\"data\":{\"List\":[{\"id\":{\"PointIdOptions\":{\"Uuid\":\"19f2626d-d2ad-5f4e-bd9f-ec221aaced17\"}},\"payload\":{\"chunk_index\":{\"Kind\":{\"IntegerValue\":0}},\"chunk_size\":{\"Kind\":{\"IntegerValue\":39}},\"content\":{\"Kind\":{\"StringValue\":\"131313131313131313231313\\r\\n3123131231321\"}},\"created_at\":{\"Kind\":{\"StringValue\":\"2025-06-30T15:44:17+08:00\"}},\"file_name\":{\"Kind\":{\"StringValue\":\"111.txt\"}}}}],\"pagination\":{\"total\":0,\"current_page\":1,\"per_page_count\":10}},\"message\":\"成功\"}" response_sz=471 status=200
+time="2025-06-30T19:12:37+08:00" level=info msg="request started" ip=127.0.0.1 method=GET path=/ollamatest/list query="uuid=8173fd6c-e5f1-4941-b632-1896448a8544" request_size=14 user_agent=PostmanRuntime/7.44.1
+time="2025-06-30T19:12:40+08:00" level=info msg="request completed" latency=3.2077506s response_body="{\"code\":0,\"data\":null,\"message\":\"查询 Qdrant 失败：Query() failed: txt_weather_8173fd6c-e5f1-4941-b632-1896448a8544: rpc error: code = Unavailable desc = connection error: desc = \\\"transport: Error while dialing: dial tcp [::1]:6334: connectex: No connection could be made because the target machine actively refused it.\\\"\"}" response_sz=329 status=200
+time="2025-06-30T19:13:25+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-30T19:13:25+08:00" level=info msg="Server exiting"
+time="2025-06-30T19:13:34+08:00" level=info msg="request started" ip=127.0.0.1 method=GET path=/ollamatest/list query="uuid=8173fd6c-e5f1-4941-b632-1896448a8544" request_size=14 user_agent=PostmanRuntime/7.44.1
+time="2025-06-30T19:13:34+08:00" level=info msg="request completed" latency=114.4352ms response_body="{\"code\":0,\"data\":{\"List\":[{\"id\":{\"PointIdOptions\":{\"Uuid\":\"19f2626d-d2ad-5f4e-bd9f-ec221aaced17\"}},\"payload\":{\"chunk_index\":{\"Kind\":{\"IntegerValue\":0}},\"chunk_size\":{\"Kind\":{\"IntegerValue\":39}},\"content\":{\"Kind\":{\"StringValue\":\"131313131313131313231313\\r\\n3123131231321\"}},\"created_at\":{\"Kind\":{\"StringValue\":\"2025-06-30T15:44:17+08:00\"}},\"file_name\":{\"Kind\":{\"StringValue\":\"111.txt\"}}}}],\"pagination\":{\"total\":1,\"current_page\":1,\"per_page_count\":10}},\"message\":\"成功\"}" response_sz=471 status=200
+time="2025-06-30T19:29:29+08:00" level=info msg="Shutdown Server ..."
+time="2025-06-30T19:29:29+08:00" level=info msg="Server exiting"
+time="2025-06-30T19:29:46+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/ollamatest/upload query= request_size=511 user_agent=PostmanRuntime/7.44.1
+time="2025-06-30T19:30:02+08:00" level=info msg="request completed" latency=15.9015095s response_body="{\"code\":0,\"data\":0,\"message\":\"成功\"}" response_sz=38 status=200
+time="2025-06-30T19:31:35+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/ollamatest/upload query= request_size=511 user_agent=PostmanRuntime/7.44.1
+time="2025-06-30T19:31:38+08:00" level=info msg="request completed" latency=2.7443627s response_body="{\"code\":0,\"data\":0,\"message\":\"成功\"}" response_sz=38 status=200
+time="2025-06-30T19:32:24+08:00" level=info msg="request started" ip=127.0.0.1 method=POST path=/ollamatest/upload query= request_size=511 user_agent=PostmanRuntime/7.44.1
+time="2025-06-30T19:32:26+08:00" level=info msg="request completed" latency=2.437796s response_body="{\"code\":0,\"data\":0,\"message\":\"成功\"}" response_sz=38 status=200

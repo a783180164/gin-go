@@ -1,0 +1,13 @@
+{
+"go.useLanguageServer": true,
+   "[go]": {
+     "editor.formatOnSave": true,
+     "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+   },
+   "gopls": {
+     "usePlaceholders": true,
+     "wantCompletionDocumentation": true
+   }
+}
